@@ -2,53 +2,54 @@
 
 ## check for equals answers
 
-	1) cpl.py <files> 
-			компилирует .cpp файлы переданные в аргументы
 
-	2) gen.py
-			генерирует тесты и тестирует
+* `cpl.py <files>`
+	* компилирует .cpp файлы переданные в аргументы
 
-	3) smart.cpp
-			усное решение которое надо протестировать
+* `gen.py`
+	* генерирует тесты и тестирует
 
-	4) stupid.cpp 
-			работающее решение
+* `smart.cpp`
+	* усное решение которое надо протестировать
 
-	5) logs.txt
-			логи
+* `stupid.cpp`
+	* работающее решение
 
-	6) out_smart.txt, out_stupid.txt
-			понятно что
+* `logs.txt`
+	* логи
 
-	7) faild_tests.txt
-			логи WA тестов
+* `out_smart.txt`, `out_stupid.txt`
+	* понятно что
 
-	8) test.txt
-			сюда генерируются тесты
+* `faild_tests.txt`
+	* логи *WA* тестов
+
+* `test.txt`
+	* сюда генерируются тесты
 
 ## check for correct answer
 	
-	1) solve.cpp 
-			само решение
+* `solve.cpp`
+	* само решение
 
-	2) out_solve.txt
-			вывод solve.cpp
+* `out_solve.txt`
+	* вывод `solve.cpp`
 
-	3) logs.txt
-			логи
+* `logs.txt`
+	* логи
 
-	4) faild_tests.txt
-			логи WA тестов
+* `faild_tests.txt`
+	* логи *WA* тестов
 
-	5) cpl.py <files> 
-			компилирует .cpp файлы переданные в аргументы
+* `cpl.py <files>`
+	* компилирует `.cpp` файлы переданные в аргументы
 
-	6) gen.py
-			генерирует тесты и тестирует
+* `gen.py`
+	* генерирует тесты и тестирует
 
-	8) test.txt
-			сюда генерируются тесты
+* `test.txt`
+	* сюда генерируются тесты
 
-	9) checker.cpp
-			проверяет верность вывода
+* `checker.cpp`
+	* проверяет верность вывода
 
