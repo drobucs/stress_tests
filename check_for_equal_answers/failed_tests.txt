@@ -1,0 +1,429 @@
+[ test_3 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00391 sec
+stupid time: 0.0037 sec
+-------------------------------------
+[ test_5 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.0041 sec
+stupid time: 0.00375 sec
+-------------------------------------
+[ test_6 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00385 sec
+stupid time: 0.00414 sec
+-------------------------------------
+[ test_7 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.00396 sec
+stupid time: 0.00405 sec
+-------------------------------------
+[ test_10 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.0038 sec
+stupid time: 0.00391 sec
+-------------------------------------
+[ test_12 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00407 sec
+stupid time: 0.00366 sec
+-------------------------------------
+[ test_33 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00388 sec
+stupid time: 0.00419 sec
+-------------------------------------
+[ test_36 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00427 sec
+stupid time: 0.00389 sec
+-------------------------------------
+[ test_37 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.0045 sec
+stupid time: 0.00374 sec
+-------------------------------------
+[ test_41 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00405 sec
+stupid time: 0.00376 sec
+-------------------------------------
+[ test_43 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00388 sec
+stupid time: 0.00382 sec
+-------------------------------------
+[ test_46 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.00383 sec
+stupid time: 0.00399 sec
+-------------------------------------
+[ test_49 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00405 sec
+stupid time: 0.0038 sec
+-------------------------------------
+[ test_53 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00386 sec
+stupid time: 0.00406 sec
+-------------------------------------
+[ test_57 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.00402 sec
+stupid time: 0.00385 sec
+-------------------------------------
+[ test_62 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00385 sec
+stupid time: 0.00412 sec
+-------------------------------------
+[ test_64 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00385 sec
+stupid time: 0.00372 sec
+-------------------------------------
+[ test_65 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00413 sec
+stupid time: 0.00383 sec
+-------------------------------------
+[ test_69 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.0043 sec
+stupid time: 0.00383 sec
+-------------------------------------
+[ test_71 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.00378 sec
+stupid time: 0.00374 sec
+-------------------------------------
+[ test_72 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00383 sec
+stupid time: 0.00392 sec
+-------------------------------------
+[ test_73 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.00398 sec
+stupid time: 0.00374 sec
+-------------------------------------
+[ test_76 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.00375 sec
+stupid time: 0.00356 sec
+-------------------------------------
+[ test_84 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00417 sec
+stupid time: 0.0037 sec
+-------------------------------------
+[ test_86 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00374 sec
+stupid time: 0.00363 sec
+-------------------------------------
+[ test_90 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.00377 sec
+stupid time: 0.00368 sec
+-------------------------------------
+[ test_97 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.00383 sec
+stupid time: 0.00369 sec
+-------------------------------------
+[ test_100 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.0037 sec
+stupid time: 0.00389 sec
+-------------------------------------
+[ test_101 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00387 sec
+stupid time: 0.00365 sec
+-------------------------------------
+[ test_106 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00386 sec
+stupid time: 0.00375 sec
+-------------------------------------
+[ test_108 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.00413 sec
+stupid time: 0.00385 sec
+-------------------------------------
+[ test_109 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00418 sec
+stupid time: 0.00368 sec
+-------------------------------------
+[ test_110 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00378 sec
+stupid time: 0.00416 sec
+-------------------------------------
