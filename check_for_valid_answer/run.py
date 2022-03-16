@@ -49,7 +49,7 @@ def print_log(file, test_number, time):
 # checks for Smart == Stupid , logs, faild_tests
 def check(test_number, time):
 	global FAILED
-	res = os.popen("./" + checker_file[:len(checker_file) - 4] + " " + test_file + " " + solve_out).read()
+	res = os.popen("./" + checker_file[:len(checker_file) - 4] + ".o " + test_file + " " + solve_out).read()
 	if res == "failed":
 		print("[    WA    ]", end = ' ')
 		log(False, test_number, time)
@@ -69,7 +69,7 @@ def run(N):
 	for i in range(1, N + 1):
 		gen(test_file)
 		start = time.perf_counter();
-		ANSWER = os.popen("./" + solve_file[:len(solve_file) - 4] + " < " + test_file).read()
+		ANSWER = os.popen("./" + solve_file[:len(solve_file) - 4] + ".o < " + test_file).read()
 		end = time.perf_counter()
 		TIME += end - start;
 		writeAnswers(ANSWER)

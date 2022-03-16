@@ -8,101 +8,23 @@ smart: -2
 
 stupid: -2
 
-smart time: 0.00508 sec
-stupid time: 0.00454 sec
+smart time: 0.00443 sec
+stupid time: 0.00424 sec
 -------------------------------------
 [ test_2 ]
 
 test:
 
--1 1
+-1 0
 
-smart: 0
+smart: -1
 
-stupid: 0
+stupid: -1
 
-smart time: 0.00441 sec
-stupid time: 0.00448 sec
+smart time: 0.00387 sec
+stupid time: 0.0038 sec
 -------------------------------------
 [ test_3 ]
-
-test:
-
-1 -1
-
-smart: 120
-
-stupid: 0
-
-smart time: 0.00391 sec
-stupid time: 0.0037 sec
--------------------------------------
-[ test_4 ]
-
-test:
-
--1 0
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.00395 sec
-stupid time: 0.00373 sec
--------------------------------------
-[ test_5 ]
-
-test:
-
-1 -1
-
-smart: 120
-
-stupid: 0
-
-smart time: 0.0041 sec
-stupid time: 0.00375 sec
--------------------------------------
-[ test_6 ]
-
-test:
-
-1 1
-
-smart: 120
-
-stupid: 2
-
-smart time: 0.00385 sec
-stupid time: 0.00414 sec
--------------------------------------
-[ test_7 ]
-
-test:
-
-1 0
-
-smart: 120
-
-stupid: 1
-
-smart time: 0.00396 sec
-stupid time: 0.00405 sec
--------------------------------------
-[ test_8 ]
-
-test:
-
--1 0
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.00395 sec
-stupid time: 0.00388 sec
--------------------------------------
-[ test_9 ]
 
 test:
 
@@ -112,10 +34,62 @@ smart: -1
 
 stupid: -1
 
-smart time: 0.00384 sec
-stupid time: 0.00384 sec
+smart time: 0.0044 sec
+stupid time: 0.00417 sec
 -------------------------------------
-[ test_10 ]
+[ test_4 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.00478 sec
+stupid time: 0.00427 sec
+-------------------------------------
+[ test_5 ]
+
+test:
+
+0 0
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00473 sec
+stupid time: 0.00464 sec
+-------------------------------------
+[ test_6 ]
+
+test:
+
+-1 1
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00453 sec
+stupid time: 0.0041 sec
+-------------------------------------
+[ test_7 ]
+
+test:
+
+-1 1
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00406 sec
+stupid time: 0.00401 sec
+-------------------------------------
+[ test_8 ]
 
 test:
 
@@ -125,8 +99,34 @@ smart: 120
 
 stupid: 0
 
-smart time: 0.0038 sec
-stupid time: 0.00391 sec
+smart time: 0.00433 sec
+stupid time: 0.00425 sec
+-------------------------------------
+[ test_9 ]
+
+test:
+
+0 1
+
+smart: 1
+
+stupid: 1
+
+smart time: 0.00395 sec
+stupid time: 0.00383 sec
+-------------------------------------
+[ test_10 ]
+
+test:
+
+0 1
+
+smart: 1
+
+stupid: 1
+
+smart time: 0.00406 sec
+stupid time: 0.00382 sec
 -------------------------------------
 [ test_11 ]
 
@@ -138,21 +138,21 @@ smart: 0
 
 stupid: 0
 
-smart time: 0.00385 sec
-stupid time: 0.00395 sec
+smart time: 0.00417 sec
+stupid time: 0.00409 sec
 -------------------------------------
 [ test_12 ]
 
 test:
 
-1 -1
+1 1
 
 smart: 120
 
-stupid: 0
+stupid: 2
 
-smart time: 0.00407 sec
-stupid time: 0.00366 sec
+smart time: 0.00381 sec
+stupid time: 0.00362 sec
 -------------------------------------
 [ test_13 ]
 
@@ -164,36 +164,10 @@ smart: 1
 
 stupid: 1
 
-smart time: 0.00387 sec
-stupid time: 0.00378 sec
+smart time: 0.0038 sec
+stupid time: 0.00405 sec
 -------------------------------------
 [ test_14 ]
-
-test:
-
-0 0
-
-smart: 0
-
-stupid: 0
-
-smart time: 0.00404 sec
-stupid time: 0.00378 sec
--------------------------------------
-[ test_15 ]
-
-test:
-
-0 1
-
-smart: 1
-
-stupid: 1
-
-smart time: 0.00377 sec
-stupid time: 0.00392 sec
--------------------------------------
-[ test_16 ]
 
 test:
 
@@ -203,10 +177,49 @@ smart: -1
 
 stupid: -1
 
-smart time: 0.00417 sec
-stupid time: 0.00409 sec
+smart time: 0.00405 sec
+stupid time: 0.00388 sec
+-------------------------------------
+[ test_15 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00376 sec
+stupid time: 0.00405 sec
+-------------------------------------
+[ test_16 ]
+
+test:
+
+-1 -1
+
+smart: -2
+
+stupid: -2
+
+smart time: 0.00441 sec
+stupid time: 0.00422 sec
 -------------------------------------
 [ test_17 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00401 sec
+stupid time: 0.00369 sec
+-------------------------------------
+[ test_18 ]
 
 test:
 
@@ -216,21 +229,8 @@ smart: 0
 
 stupid: 0
 
-smart time: 0.00439 sec
-stupid time: 0.00393 sec
--------------------------------------
-[ test_18 ]
-
-test:
-
-0 1
-
-smart: 1
-
-stupid: 1
-
-smart time: 0.00387 sec
-stupid time: 0.00431 sec
+smart time: 0.00413 sec
+stupid time: 0.00366 sec
 -------------------------------------
 [ test_19 ]
 
@@ -242,21 +242,21 @@ smart: -1
 
 stupid: -1
 
-smart time: 0.00426 sec
-stupid time: 0.00376 sec
+smart time: 0.00401 sec
+stupid time: 0.00399 sec
 -------------------------------------
 [ test_20 ]
 
 test:
 
-0 1
+0 -1
 
-smart: 1
+smart: -1
 
-stupid: 1
+stupid: -1
 
-smart time: 0.00414 sec
-stupid time: 0.00401 sec
+smart time: 0.00382 sec
+stupid time: 0.00352 sec
 -------------------------------------
 [ test_21 ]
 
@@ -268,73 +268,73 @@ smart: 0
 
 stupid: 0
 
-smart time: 0.0043 sec
-stupid time: 0.00398 sec
+smart time: 0.00394 sec
+stupid time: 0.00414 sec
 -------------------------------------
 [ test_22 ]
 
 test:
 
--1 1
+0 -1
 
-smart: 0
+smart: -1
 
-stupid: 0
+stupid: -1
 
-smart time: 0.00412 sec
-stupid time: 0.00418 sec
+smart time: 0.00406 sec
+stupid time: 0.00365 sec
 -------------------------------------
 [ test_23 ]
 
 test:
 
-0 -1
+1 -1
 
-smart: -1
+smart: 120
 
-stupid: -1
+stupid: 0
 
-smart time: 0.00409 sec
-stupid time: 0.00395 sec
+smart time: 0.00377 sec
+stupid time: 0.00417 sec
 -------------------------------------
 [ test_24 ]
 
 test:
 
-0 -1
+1 1
 
-smart: -1
+smart: 120
 
-stupid: -1
+stupid: 2
 
-smart time: 0.00401 sec
-stupid time: 0.00387 sec
+smart time: 0.0042 sec
+stupid time: 0.00395 sec
 -------------------------------------
 [ test_25 ]
 
 test:
 
--1 1
+1 0
 
-smart: 0
+smart: 120
 
-stupid: 0
+stupid: 1
 
-smart time: 0.00416 sec
-stupid time: 0.00407 sec
+smart time: 0.00414 sec
+stupid time: 0.00384 sec
 -------------------------------------
 [ test_26 ]
 
 test:
 
--1 1
+0 0
 
 smart: 0
 
 stupid: 0
 
-smart time: 0.00439 sec
-stupid time: 0.00409 sec
+smart time: 0.00383 sec
+stupid time: 0.00374 sec
 -------------------------------------
 [ test_27 ]
 
@@ -346,8 +346,8 @@ smart: 0
 
 stupid: 0
 
-smart time: 0.00416 sec
-stupid time: 0.00398 sec
+smart time: 0.00399 sec
+stupid time: 0.00385 sec
 -------------------------------------
 [ test_28 ]
 
@@ -359,23 +359,10 @@ smart: 0
 
 stupid: 0
 
-smart time: 0.00419 sec
-stupid time: 0.00413 sec
+smart time: 0.00396 sec
+stupid time: 0.00432 sec
 -------------------------------------
 [ test_29 ]
-
-test:
-
--1 -1
-
-smart: -2
-
-stupid: -2
-
-smart time: 0.00434 sec
-stupid time: 0.00392 sec
--------------------------------------
-[ test_30 ]
 
 test:
 
@@ -385,62 +372,49 @@ smart: 0
 
 stupid: 0
 
-smart time: 0.00409 sec
-stupid time: 0.00414 sec
+smart time: 0.00388 sec
+stupid time: 0.00368 sec
 -------------------------------------
-[ test_31 ]
+[ test_30 ]
 
 test:
 
--1 0
+0 -1
 
 smart: -1
 
 stupid: -1
 
-smart time: 0.00418 sec
+smart time: 0.00404 sec
 stupid time: 0.00391 sec
+-------------------------------------
+[ test_31 ]
+
+test:
+
+0 -1
+
+smart: -1
+
+stupid: -1
+
+smart time: 0.00406 sec
+stupid time: 0.00448 sec
 -------------------------------------
 [ test_32 ]
 
 test:
 
--1 -1
+0 1
 
-smart: -2
+smart: 1
 
-stupid: -2
+stupid: 1
 
-smart time: 0.00424 sec
-stupid time: 0.00404 sec
+smart time: 0.00401 sec
+stupid time: 0.0037 sec
 -------------------------------------
 [ test_33 ]
-
-test:
-
-1 1
-
-smart: 120
-
-stupid: 2
-
-smart time: 0.00388 sec
-stupid time: 0.00419 sec
--------------------------------------
-[ test_34 ]
-
-test:
-
--1 -1
-
-smart: -2
-
-stupid: -2
-
-smart time: 0.00422 sec
-stupid time: 0.0042 sec
--------------------------------------
-[ test_35 ]
 
 test:
 
@@ -450,88 +424,23 @@ smart: 0
 
 stupid: 0
 
-smart time: 0.00417 sec
-stupid time: 0.00402 sec
--------------------------------------
-[ test_36 ]
-
-test:
-
-1 1
-
-smart: 120
-
-stupid: 2
-
 smart time: 0.00427 sec
-stupid time: 0.00389 sec
+stupid time: 0.00416 sec
 -------------------------------------
-[ test_37 ]
+[ test_34 ]
 
 test:
 
-1 0
+1 -1
 
 smart: 120
-
-stupid: 1
-
-smart time: 0.0045 sec
-stupid time: 0.00374 sec
--------------------------------------
-[ test_38 ]
-
-test:
-
-0 0
-
-smart: 0
 
 stupid: 0
 
-smart time: 0.00385 sec
-stupid time: 0.00417 sec
+smart time: 0.0043 sec
+stupid time: 0.00367 sec
 -------------------------------------
-[ test_39 ]
-
-test:
-
-0 1
-
-smart: 1
-
-stupid: 1
-
-smart time: 0.00396 sec
-stupid time: 0.00376 sec
--------------------------------------
-[ test_40 ]
-
-test:
-
--1 0
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.00392 sec
-stupid time: 0.00371 sec
--------------------------------------
-[ test_41 ]
-
-test:
-
-1 1
-
-smart: 120
-
-stupid: 2
-
-smart time: 0.00405 sec
-stupid time: 0.00376 sec
--------------------------------------
-[ test_42 ]
+[ test_35 ]
 
 test:
 
@@ -541,36 +450,10 @@ smart: -2
 
 stupid: -2
 
-smart time: 0.00382 sec
-stupid time: 0.00403 sec
+smart time: 0.00399 sec
+stupid time: 0.00404 sec
 -------------------------------------
-[ test_43 ]
-
-test:
-
-1 1
-
-smart: 120
-
-stupid: 2
-
-smart time: 0.00388 sec
-stupid time: 0.00382 sec
--------------------------------------
-[ test_44 ]
-
-test:
-
-0 1
-
-smart: 1
-
-stupid: 1
-
-smart time: 0.00388 sec
-stupid time: 0.00374 sec
--------------------------------------
-[ test_45 ]
+[ test_36 ]
 
 test:
 
@@ -580,8 +463,125 @@ smart: 0
 
 stupid: 0
 
-smart time: 0.00422 sec
-stupid time: 0.00391 sec
+smart time: 0.00414 sec
+stupid time: 0.00413 sec
+-------------------------------------
+[ test_37 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00398 sec
+stupid time: 0.0038 sec
+-------------------------------------
+[ test_38 ]
+
+test:
+
+0 1
+
+smart: 1
+
+stupid: 1
+
+smart time: 0.00402 sec
+stupid time: 0.00374 sec
+-------------------------------------
+[ test_39 ]
+
+test:
+
+0 0
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00412 sec
+stupid time: 0.00381 sec
+-------------------------------------
+[ test_40 ]
+
+test:
+
+-1 1
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00388 sec
+stupid time: 0.00399 sec
+-------------------------------------
+[ test_41 ]
+
+test:
+
+0 -1
+
+smart: -1
+
+stupid: -1
+
+smart time: 0.00386 sec
+stupid time: 0.00403 sec
+-------------------------------------
+[ test_42 ]
+
+test:
+
+0 -1
+
+smart: -1
+
+stupid: -1
+
+smart time: 0.00417 sec
+stupid time: 0.00382 sec
+-------------------------------------
+[ test_43 ]
+
+test:
+
+-1 -1
+
+smart: -2
+
+stupid: -2
+
+smart time: 0.00368 sec
+stupid time: 0.00447 sec
+-------------------------------------
+[ test_44 ]
+
+test:
+
+0 -1
+
+smart: -1
+
+stupid: -1
+
+smart time: 0.00404 sec
+stupid time: 0.00384 sec
+-------------------------------------
+[ test_45 ]
+
+test:
+
+-1 0
+
+smart: -1
+
+stupid: -1
+
+smart time: 0.00385 sec
+stupid time: 0.00383 sec
 -------------------------------------
 [ test_46 ]
 
@@ -593,21 +593,21 @@ smart: 120
 
 stupid: 1
 
-smart time: 0.00383 sec
-stupid time: 0.00399 sec
+smart time: 0.00446 sec
+stupid time: 0.004 sec
 -------------------------------------
 [ test_47 ]
 
 test:
 
-0 0
+-1 -1
 
-smart: 0
+smart: -2
 
-stupid: 0
+stupid: -2
 
-smart time: 0.00393 sec
-stupid time: 0.00368 sec
+smart time: 0.00441 sec
+stupid time: 0.00391 sec
 -------------------------------------
 [ test_48 ]
 
@@ -619,10 +619,218 @@ smart: -2
 
 stupid: -2
 
-smart time: 0.00391 sec
-stupid time: 0.0038 sec
+smart time: 0.00436 sec
+stupid time: 0.00433 sec
 -------------------------------------
 [ test_49 ]
+
+test:
+
+0 1
+
+smart: 1
+
+stupid: 1
+
+smart time: 0.00393 sec
+stupid time: 0.00414 sec
+-------------------------------------
+[ test_50 ]
+
+test:
+
+0 1
+
+smart: 1
+
+stupid: 1
+
+smart time: 0.00402 sec
+stupid time: 0.00385 sec
+-------------------------------------
+[ test_51 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.00417 sec
+stupid time: 0.00476 sec
+-------------------------------------
+[ test_52 ]
+
+test:
+
+-1 -1
+
+smart: -2
+
+stupid: -2
+
+smart time: 0.00463 sec
+stupid time: 0.00399 sec
+-------------------------------------
+[ test_53 ]
+
+test:
+
+0 -1
+
+smart: -1
+
+stupid: -1
+
+smart time: 0.00409 sec
+stupid time: 0.00435 sec
+-------------------------------------
+[ test_54 ]
+
+test:
+
+-1 -1
+
+smart: -2
+
+stupid: -2
+
+smart time: 0.00393 sec
+stupid time: 0.00406 sec
+-------------------------------------
+[ test_55 ]
+
+test:
+
+-1 -1
+
+smart: -2
+
+stupid: -2
+
+smart time: 0.00385 sec
+stupid time: 0.00386 sec
+-------------------------------------
+[ test_56 ]
+
+test:
+
+-1 1
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00399 sec
+stupid time: 0.00428 sec
+-------------------------------------
+[ test_57 ]
+
+test:
+
+-1 1
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.0042 sec
+stupid time: 0.00407 sec
+-------------------------------------
+[ test_58 ]
+
+test:
+
+-1 1
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00399 sec
+stupid time: 0.00369 sec
+-------------------------------------
+[ test_59 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.0042 sec
+stupid time: 0.00408 sec
+-------------------------------------
+[ test_60 ]
+
+test:
+
+0 1
+
+smart: 1
+
+stupid: 1
+
+smart time: 0.00448 sec
+stupid time: 0.00383 sec
+-------------------------------------
+[ test_61 ]
+
+test:
+
+-1 1
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00376 sec
+stupid time: 0.0039 sec
+-------------------------------------
+[ test_62 ]
+
+test:
+
+-1 1
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00392 sec
+stupid time: 0.00389 sec
+-------------------------------------
+[ test_63 ]
+
+test:
+
+1 -1
+
+smart: 120
+
+stupid: 0
+
+smart time: 0.00415 sec
+stupid time: 0.00372 sec
+-------------------------------------
+[ test_64 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00422 sec
+stupid time: 0.00381 sec
+-------------------------------------
+[ test_65 ]
 
 test:
 
@@ -633,215 +841,7 @@ smart: 120
 stupid: 0
 
 smart time: 0.00405 sec
-stupid time: 0.0038 sec
--------------------------------------
-[ test_50 ]
-
-test:
-
--1 0
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.0038 sec
-stupid time: 0.00406 sec
--------------------------------------
-[ test_51 ]
-
-test:
-
-0 -1
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.00384 sec
-stupid time: 0.00397 sec
--------------------------------------
-[ test_52 ]
-
-test:
-
-0 -1
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.00387 sec
-stupid time: 0.00386 sec
--------------------------------------
-[ test_53 ]
-
-test:
-
-1 -1
-
-smart: 120
-
-stupid: 0
-
-smart time: 0.00386 sec
-stupid time: 0.00406 sec
--------------------------------------
-[ test_54 ]
-
-test:
-
-0 1
-
-smart: 1
-
-stupid: 1
-
-smart time: 0.00379 sec
-stupid time: 0.00419 sec
--------------------------------------
-[ test_55 ]
-
-test:
-
-0 1
-
-smart: 1
-
-stupid: 1
-
-smart time: 0.00385 sec
-stupid time: 0.00371 sec
--------------------------------------
-[ test_56 ]
-
-test:
-
--1 0
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.004 sec
-stupid time: 0.00393 sec
--------------------------------------
-[ test_57 ]
-
-test:
-
-1 0
-
-smart: 120
-
-stupid: 1
-
-smart time: 0.00402 sec
-stupid time: 0.00385 sec
--------------------------------------
-[ test_58 ]
-
-test:
-
--1 0
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.00378 sec
-stupid time: 0.0041 sec
--------------------------------------
-[ test_59 ]
-
-test:
-
-0 -1
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.00398 sec
-stupid time: 0.00389 sec
--------------------------------------
-[ test_60 ]
-
-test:
-
--1 -1
-
-smart: -2
-
-stupid: -2
-
-smart time: 0.00396 sec
-stupid time: 0.00387 sec
--------------------------------------
-[ test_61 ]
-
-test:
-
-0 -1
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.0044 sec
-stupid time: 0.00388 sec
--------------------------------------
-[ test_62 ]
-
-test:
-
-1 1
-
-smart: 120
-
-stupid: 2
-
-smart time: 0.00385 sec
-stupid time: 0.00412 sec
--------------------------------------
-[ test_63 ]
-
-test:
-
-0 -1
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.004 sec
-stupid time: 0.00378 sec
--------------------------------------
-[ test_64 ]
-
-test:
-
-1 -1
-
-smart: 120
-
-stupid: 0
-
-smart time: 0.00385 sec
-stupid time: 0.00372 sec
--------------------------------------
-[ test_65 ]
-
-test:
-
-1 1
-
-smart: 120
-
-stupid: 2
-
-smart time: 0.00413 sec
-stupid time: 0.00383 sec
+stupid time: 0.00421 sec
 -------------------------------------
 [ test_66 ]
 
@@ -853,21 +853,21 @@ smart: 0
 
 stupid: 0
 
-smart time: 0.00419 sec
-stupid time: 0.00385 sec
+smart time: 0.00394 sec
+stupid time: 0.0043 sec
 -------------------------------------
 [ test_67 ]
 
 test:
 
--1 1
+1 -1
 
-smart: 0
+smart: 120
 
 stupid: 0
 
-smart time: 0.00404 sec
-stupid time: 0.00386 sec
+smart time: 0.00408 sec
+stupid time: 0.00412 sec
 -------------------------------------
 [ test_68 ]
 
@@ -879,73 +879,73 @@ smart: 1
 
 stupid: 1
 
-smart time: 0.00393 sec
-stupid time: 0.00366 sec
+smart time: 0.00394 sec
+stupid time: 0.00367 sec
 -------------------------------------
 [ test_69 ]
 
 test:
 
-1 0
+0 0
 
-smart: 120
+smart: 0
 
-stupid: 1
+stupid: 0
 
-smart time: 0.0043 sec
-stupid time: 0.00383 sec
+smart time: 0.00397 sec
+stupid time: 0.00392 sec
 -------------------------------------
 [ test_70 ]
 
 test:
 
-0 1
+-1 1
 
-smart: 1
+smart: 0
 
-stupid: 1
+stupid: 0
 
-smart time: 0.00399 sec
-stupid time: 0.00395 sec
+smart time: 0.00407 sec
+stupid time: 0.0038 sec
 -------------------------------------
 [ test_71 ]
 
 test:
 
-1 0
+-1 -1
 
-smart: 120
+smart: -2
 
-stupid: 1
+stupid: -2
 
-smart time: 0.00378 sec
-stupid time: 0.00374 sec
+smart time: 0.00389 sec
+stupid time: 0.00378 sec
 -------------------------------------
 [ test_72 ]
 
 test:
 
-1 -1
+-1 -1
 
-smart: 120
+smart: -2
 
-stupid: 0
+stupid: -2
 
-smart time: 0.00383 sec
-stupid time: 0.00392 sec
+smart time: 0.00398 sec
+stupid time: 0.00371 sec
 -------------------------------------
 [ test_73 ]
 
 test:
 
-1 0
+-1 1
 
-smart: 120
+smart: 0
 
-stupid: 1
+stupid: 0
 
-smart time: 0.00398 sec
-stupid time: 0.00374 sec
+smart time: 0.00418 sec
+stupid time: 0.00385 sec
 -------------------------------------
 [ test_74 ]
 
@@ -957,99 +957,99 @@ smart: -1
 
 stupid: -1
 
-smart time: 0.00419 sec
-stupid time: 0.00365 sec
+smart time: 0.00373 sec
+stupid time: 0.00405 sec
 -------------------------------------
 [ test_75 ]
 
 test:
 
-0 0
+0 -1
 
-smart: 0
+smart: -1
 
-stupid: 0
+stupid: -1
 
-smart time: 0.00372 sec
-stupid time: 0.00411 sec
+smart time: 0.00405 sec
+stupid time: 0.00393 sec
 -------------------------------------
 [ test_76 ]
 
 test:
 
-1 0
+-1 -1
 
-smart: 120
+smart: -2
 
-stupid: 1
+stupid: -2
 
-smart time: 0.00375 sec
-stupid time: 0.00356 sec
+smart time: 0.00382 sec
+stupid time: 0.0038 sec
 -------------------------------------
 [ test_77 ]
 
 test:
 
-0 0
+0 1
 
-smart: 0
+smart: 1
 
-stupid: 0
+stupid: 1
 
-smart time: 0.00381 sec
-stupid time: 0.00375 sec
+smart time: 0.0038 sec
+stupid time: 0.00407 sec
 -------------------------------------
 [ test_78 ]
 
 test:
 
-0 0
+-1 1
 
 smart: 0
 
 stupid: 0
 
-smart time: 0.00412 sec
-stupid time: 0.00385 sec
+smart time: 0.00405 sec
+stupid time: 0.0043 sec
 -------------------------------------
 [ test_79 ]
 
 test:
 
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00393 sec
+stupid time: 0.00386 sec
+-------------------------------------
+[ test_80 ]
+
+test:
+
+-1 -1
+
+smart: -2
+
+stupid: -2
+
+smart time: 0.00401 sec
+stupid time: 0.00415 sec
+-------------------------------------
+[ test_81 ]
+
+test:
+
 0 0
 
 smart: 0
 
 stupid: 0
 
-smart time: 0.00376 sec
-stupid time: 0.00385 sec
--------------------------------------
-[ test_80 ]
-
-test:
-
-0 1
-
-smart: 1
-
-stupid: 1
-
-smart time: 0.00394 sec
-stupid time: 0.00387 sec
--------------------------------------
-[ test_81 ]
-
-test:
-
-0 1
-
-smart: 1
-
-stupid: 1
-
-smart time: 0.00413 sec
-stupid time: 0.00375 sec
+smart time: 0.00469 sec
+stupid time: 0.00386 sec
 -------------------------------------
 [ test_82 ]
 
@@ -1061,23 +1061,10 @@ smart: 0
 
 stupid: 0
 
-smart time: 0.0038 sec
-stupid time: 0.00404 sec
+smart time: 0.00373 sec
+stupid time: 0.00412 sec
 -------------------------------------
 [ test_83 ]
-
-test:
-
--1 -1
-
-smart: -2
-
-stupid: -2
-
-smart time: 0.00382 sec
-stupid time: 0.00384 sec
--------------------------------------
-[ test_84 ]
 
 test:
 
@@ -1087,10 +1074,36 @@ smart: 120
 
 stupid: 0
 
-smart time: 0.00417 sec
-stupid time: 0.0037 sec
+smart time: 0.00408 sec
+stupid time: 0.00382 sec
+-------------------------------------
+[ test_84 ]
+
+test:
+
+1 0
+
+smart: 120
+
+stupid: 1
+
+smart time: 0.00403 sec
+stupid time: 0.00385 sec
 -------------------------------------
 [ test_85 ]
+
+test:
+
+0 0
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00393 sec
+stupid time: 0.00381 sec
+-------------------------------------
+[ test_86 ]
 
 test:
 
@@ -1100,10 +1113,36 @@ smart: 0
 
 stupid: 0
 
-smart time: 0.00426 sec
-stupid time: 0.00384 sec
+smart time: 0.00421 sec
+stupid time: 0.00375 sec
 -------------------------------------
-[ test_86 ]
+[ test_87 ]
+
+test:
+
+0 1
+
+smart: 1
+
+stupid: 1
+
+smart time: 0.00373 sec
+stupid time: 0.00429 sec
+-------------------------------------
+[ test_88 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00406 sec
+stupid time: 0.00372 sec
+-------------------------------------
+[ test_89 ]
 
 test:
 
@@ -1113,47 +1152,8 @@ smart: 120
 
 stupid: 0
 
-smart time: 0.00374 sec
-stupid time: 0.00363 sec
--------------------------------------
-[ test_87 ]
-
-test:
-
-0 0
-
-smart: 0
-
-stupid: 0
-
-smart time: 0.00391 sec
-stupid time: 0.00363 sec
--------------------------------------
-[ test_88 ]
-
-test:
-
-0 0
-
-smart: 0
-
-stupid: 0
-
-smart time: 0.00394 sec
-stupid time: 0.00369 sec
--------------------------------------
-[ test_89 ]
-
-test:
-
--1 -1
-
-smart: -2
-
-stupid: -2
-
-smart time: 0.0038 sec
-stupid time: 0.004 sec
+smart time: 0.0041 sec
+stupid time: 0.00365 sec
 -------------------------------------
 [ test_90 ]
 
@@ -1165,21 +1165,21 @@ smart: 120
 
 stupid: 1
 
-smart time: 0.00377 sec
-stupid time: 0.00368 sec
+smart time: 0.00422 sec
+stupid time: 0.00411 sec
 -------------------------------------
 [ test_91 ]
 
 test:
 
--1 1
+0 0
 
 smart: 0
 
 stupid: 0
 
-smart time: 0.00383 sec
-stupid time: 0.00385 sec
+smart time: 0.00396 sec
+stupid time: 0.00383 sec
 -------------------------------------
 [ test_92 ]
 
@@ -1191,23 +1191,10 @@ smart: -2
 
 stupid: -2
 
-smart time: 0.00414 sec
-stupid time: 0.00381 sec
+smart time: 0.00448 sec
+stupid time: 0.00401 sec
 -------------------------------------
 [ test_93 ]
-
-test:
-
-0 1
-
-smart: 1
-
-stupid: 1
-
-smart time: 0.00369 sec
-stupid time: 0.00388 sec
--------------------------------------
-[ test_94 ]
 
 test:
 
@@ -1217,62 +1204,10 @@ smart: 0
 
 stupid: 0
 
-smart time: 0.00399 sec
-stupid time: 0.00377 sec
+smart time: 0.00385 sec
+stupid time: 0.00396 sec
 -------------------------------------
-[ test_95 ]
-
-test:
-
-0 1
-
-smart: 1
-
-stupid: 1
-
-smart time: 0.00411 sec
-stupid time: 0.00377 sec
--------------------------------------
-[ test_96 ]
-
-test:
-
-0 -1
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.0038 sec
-stupid time: 0.00426 sec
--------------------------------------
-[ test_97 ]
-
-test:
-
-1 0
-
-smart: 120
-
-stupid: 1
-
-smart time: 0.00383 sec
-stupid time: 0.00369 sec
--------------------------------------
-[ test_98 ]
-
-test:
-
--1 -1
-
-smart: -2
-
-stupid: -2
-
-smart time: 0.00388 sec
-stupid time: 0.00373 sec
--------------------------------------
-[ test_99 ]
+[ test_94 ]
 
 test:
 
@@ -1282,8 +1217,73 @@ smart: -1
 
 stupid: -1
 
-smart time: 0.00397 sec
-stupid time: 0.00371 sec
+smart time: 0.00387 sec
+stupid time: 0.00374 sec
+-------------------------------------
+[ test_95 ]
+
+test:
+
+0 0
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00416 sec
+stupid time: 0.00482 sec
+-------------------------------------
+[ test_96 ]
+
+test:
+
+0 1
+
+smart: 1
+
+stupid: 1
+
+smart time: 0.0044 sec
+stupid time: 0.00379 sec
+-------------------------------------
+[ test_97 ]
+
+test:
+
+-1 1
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00396 sec
+stupid time: 0.00402 sec
+-------------------------------------
+[ test_98 ]
+
+test:
+
+-1 1
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.0042 sec
+stupid time: 0.00412 sec
+-------------------------------------
+[ test_99 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00401 sec
+stupid time: 0.00404 sec
 -------------------------------------
 [ test_100 ]
 
@@ -1295,49 +1295,10 @@ smart: 120
 
 stupid: 1
 
-smart time: 0.0037 sec
-stupid time: 0.00389 sec
+smart time: 0.004 sec
+stupid time: 0.00403 sec
 -------------------------------------
 [ test_101 ]
-
-test:
-
-1 -1
-
-smart: 120
-
-stupid: 0
-
-smart time: 0.00387 sec
-stupid time: 0.00365 sec
--------------------------------------
-[ test_102 ]
-
-test:
-
-0 -1
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.00391 sec
-stupid time: 0.00369 sec
--------------------------------------
-[ test_103 ]
-
-test:
-
--1 0
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.00427 sec
-stupid time: 0.00366 sec
--------------------------------------
-[ test_104 ]
 
 test:
 
@@ -1347,10 +1308,36 @@ smart: -2
 
 stupid: -2
 
-smart time: 0.00396 sec
-stupid time: 0.00382 sec
+smart time: 0.00414 sec
+stupid time: 0.00375 sec
 -------------------------------------
-[ test_105 ]
+[ test_102 ]
+
+test:
+
+1 1
+
+smart: 120
+
+stupid: 2
+
+smart time: 0.00403 sec
+stupid time: 0.00387 sec
+-------------------------------------
+[ test_103 ]
+
+test:
+
+-1 1
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.00396 sec
+stupid time: 0.00409 sec
+-------------------------------------
+[ test_104 ]
 
 test:
 
@@ -1360,10 +1347,62 @@ smart: -1
 
 stupid: -1
 
-smart time: 0.00391 sec
-stupid time: 0.00404 sec
+smart time: 0.00396 sec
+stupid time: 0.00364 sec
+-------------------------------------
+[ test_105 ]
+
+test:
+
+-1 -1
+
+smart: -2
+
+stupid: -2
+
+smart time: 0.00389 sec
+stupid time: 0.004 sec
 -------------------------------------
 [ test_106 ]
+
+test:
+
+0 0
+
+smart: 0
+
+stupid: 0
+
+smart time: 0.0041 sec
+stupid time: 0.00379 sec
+-------------------------------------
+[ test_107 ]
+
+test:
+
+0 -1
+
+smart: -1
+
+stupid: -1
+
+smart time: 0.00385 sec
+stupid time: 0.00402 sec
+-------------------------------------
+[ test_108 ]
+
+test:
+
+0 -1
+
+smart: -1
+
+stupid: -1
+
+smart time: 0.00396 sec
+stupid time: 0.00413 sec
+-------------------------------------
+[ test_109 ]
 
 test:
 
@@ -1373,23 +1412,10 @@ smart: 120
 
 stupid: 0
 
-smart time: 0.00386 sec
-stupid time: 0.00375 sec
+smart time: 0.00397 sec
+stupid time: 0.00371 sec
 -------------------------------------
-[ test_107 ]
-
-test:
-
--1 0
-
-smart: -1
-
-stupid: -1
-
-smart time: 0.00389 sec
-stupid time: 0.00365 sec
--------------------------------------
-[ test_108 ]
+[ test_110 ]
 
 test:
 
@@ -1399,32 +1425,6 @@ smart: 120
 
 stupid: 1
 
-smart time: 0.00413 sec
-stupid time: 0.00385 sec
--------------------------------------
-[ test_109 ]
-
-test:
-
-1 1
-
-smart: 120
-
-stupid: 2
-
-smart time: 0.00418 sec
-stupid time: 0.00368 sec
--------------------------------------
-[ test_110 ]
-
-test:
-
-1 1
-
-smart: 120
-
-stupid: 2
-
-smart time: 0.00378 sec
-stupid time: 0.00416 sec
+smart time: 0.0041 sec
+stupid time: 0.0037 sec
 -------------------------------------

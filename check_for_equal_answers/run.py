@@ -7,8 +7,8 @@ TESTS = 110       						# number of tests
 FAILED = 0        						# number of faild tests
 SMART = ""        						# smart answer
 STUPID = "" 	  						# stupid answer
-TIME_SMART = 0.0  						# time of smart solve
-TIME_STUPID = 0.0 						# time of stupid solve
+SMART_TIME = 0.0  						# time of smart solve
+STUPID_TIME = 0.0 						# time of stupid solve
 test_file        = 'test.txt'			# file for tests
 failed_test_file = 'failed_tests.txt' 	# file for faild tests
 log_file         = 'logs.txt'       	# file for logs
@@ -63,21 +63,21 @@ def check(test_number, smart_t, stupid_t):
 
 # run without parametrs
 def run(N):
-	global SMART, STUPID, TIME_SMART, TIME_STUPID
+	global SMART, STUPID, SMART_TIME, STUPID_TIME
 	for i in range(1, N + 1):
 		gen(test_file)
 
 		start = time.perf_counter()
-		SMART = os.popen("./" + smart_file[:len(smart_file) - 4] + " < " + test_file).read()
+		SMART = os.popen("./" + smart_file[:len(smart_file) - 4] + ".o < " + test_file).read()
 		end = time.perf_counter()
 		smart_t = end - start
-		TIME_SMART += end - start
+		SMART_TIME += end - start
 
 		start = time.perf_counter();
-		STUPID = os.popen("./" + stupid_file[:len(stupid_file) - 4] + " < " + test_file).read()
+		STUPID = os.popen("./" + stupid_file[:len(stupid_file) - 4] + ".o < " + test_file).read()
 		end = time.perf_counter()
 		stupid_t = end - start
-		TIME_STUPID += end - start
+		STUPID_TIME += end - start
 
 		check(i, smart_t, stupid_t)
 		print("[  test_" + str(i) + "  ]")
@@ -106,8 +106,8 @@ run(TESTS)
 
 
 print("-----------------------------------------------------")
-print("SMART TIME: " + str(round(TIME_SMART, 5)) + " sec")
-print("TIME_STUPID: " + str(round(TIME_STUPID, 5)) + " sec")
+print("SMART_TIME: " + str(round(SMART_TIME, 5)) + " sec")
+print("STUPID_TIME: " + str(round(STUPID_TIME, 5)) + " sec")
 print("TESTS: " + str(TESTS))
 print("ACCEPT: " + str(TESTS - FAILED))
 print("FAILED: " + str(FAILED))
